@@ -14,8 +14,7 @@ BURGER.addEventListener("click", () => {
     MAIN_NAV.classList.toggle('active')
     CATALOG_BTN.classList.remove('active')
     CATALOG_MENU.classList.remove('active')
-
-
+    document.body.classList.toggle('hidden')
 })
 
 

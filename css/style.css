@@ -3,6 +3,10 @@ body {
     font-size: 12px;
 }
 
+body.hidden {
+    overflow: hidden;
+}
+
 .container {
     width: 100%;
     padding: 0 18px;
@@ -296,7 +300,7 @@ main{
         height: calc(100vh);
         background-color: #FFFFFF;
         overflow: auto;
-        padding: 0 18px 100px 18px;
+        padding: 0 18px 150px 18px;
     }
     
     .catalog-nav {
