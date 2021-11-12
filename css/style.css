@@ -37,7 +37,7 @@ body {
     height: 60px;
     align-items: center;
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: 400;
     margin: 0 12px 0 0;
 }
 .main-nav-item.active .main-nav-link span{
@@ -92,7 +92,7 @@ body {
     height: 60px;
     align-items: center;
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: 400;
     margin: 0 0 0 12px;
 }
 .main-shop-link {
@@ -133,7 +133,7 @@ body {
 }
 .catalog-item {
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: 400;
     margin: 0 12px 0 0;
 }
 .catalog-link {
@@ -207,7 +207,7 @@ main{
 .footer-info {
     display: flex;
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: 400;
 }
 .footer-info span{
     font-weight: 500;
@@ -219,7 +219,7 @@ main{
 }
 .main-info-item {
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: 400;
     margin: 0 12px 0 0;
 }
 .main-info-link {
@@ -290,9 +290,10 @@ main{
 
     .main-nav-catalog {
         position: absolute;
-        height: calc(100vh - 140px);
+        height: calc(100vh);
         background-color: #FFFFFF;
         overflow: auto;
+        padding: 0 18px 100px 18px;
     }
     
     .catalog-nav {
@@ -303,7 +304,7 @@ main{
     }
     .catalog-item {
         text-transform: uppercase;
-        font-weight: 300;
+        font-weight: 400;
         height: 60px;
         width: 100%;
         margin: 0 12px 0 0;
@@ -362,7 +363,7 @@ main{
     .footer-info {
         display: inline-block;
         text-transform: uppercase;
-        font-weight: 300;
+        font-weight: 400;
     }
     .footer-info span{
         font-weight: 500;
@@ -377,7 +378,7 @@ main{
     }
     .main-info-item {
         text-transform: uppercase;
-        font-weight: 300;
+        font-weight: 400;
         margin: 0;
     }
     .main-info-link {

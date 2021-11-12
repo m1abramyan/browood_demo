@@ -12,7 +12,9 @@ const SEARCH_BTN_CLOSE = document.querySelector('.search-form-close')
 BURGER.addEventListener("click", () => {
     BURGER.classList.toggle('active')
     MAIN_NAV.classList.toggle('active')
+    CATALOG_BTN.classList.remove('active')
     CATALOG_MENU.classList.remove('active')
+
 
 })
 
