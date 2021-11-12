@@ -60,14 +60,17 @@ body {
     display: none;
     background: none;
     position: absolute;
+    color: #181818;
 }
 .header-burger span::before{
-   content: "menu";
-   transition: 0.2s;
+    content: "menu";
+    transition: 0.2s;
+    color: #181818;
 }
 .header-burger.active span::before{
     content: "close";
     transition: 0.2s;
+    color: #181818;
  }
 /* ЛОГОТИП */
 .header__logo {
