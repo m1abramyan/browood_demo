@@ -332,6 +332,7 @@ main{
     appearance: none;
     outline: 0;
     box-shadow: none;
+    border-radius: 0;
 }
 .room-input button {
     height: 36px;
