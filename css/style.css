@@ -219,8 +219,6 @@ main{
 .footer-info span{
     font-weight: 500;
 }
-.footer-nav {
-}
 .main-info {
     display: flex;
 }
@@ -328,6 +326,12 @@ main{
     padding: 12px;
     border-bottom: 1px solid #C4C4C4;
     width: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
 }
 .room-input button {
     height: 36px;
@@ -335,12 +339,6 @@ main{
     background: none;
     border-bottom: 1px solid #C4C4C4;
     color: #000000;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    -ms-appearance: none;
-    appearance: none;
-    outline: 0;
-    box-shadow: none;
 
 }
 
