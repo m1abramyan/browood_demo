@@ -50,7 +50,7 @@ body.hidden {
     font-size: 16px;
  }
 .main-nav-link {
-    color: #181818;
+    color: #000000;
     display: flex;
     align-items: center;
 }
@@ -64,23 +64,23 @@ body.hidden {
     display: none;
     background: none;
     position: absolute;
-    color: #181818;
+    color: #000000;
 }
 .header-burger span::before{
     content: "menu";
     transition: 0.2s;
-    color: #181818;
+    color: #000000;
 }
 .header-burger.active span::before{
     content: "close";
     transition: 0.2s;
-    color: #181818;
+    color: #000000;
  }
 /* ЛОГОТИП */
 .header__logo {
     text-transform: uppercase;
     font-size: 24px;
-    color: #181818;
+    color: #000000;
     font-weight: 500;
     position: absolute;
     left: 50%;
@@ -103,7 +103,7 @@ body.hidden {
     margin: 0 0 0 12px;
 }
 .main-shop-link {
-    color: #181818;
+    color: #000000;
     display: flex;
     align-items: center;
 }
@@ -144,7 +144,7 @@ body.hidden {
     margin: 0 12px 0 0;
 }
 .catalog-link {
-    color: #181818;
+    color: #000000;
     transition: 1s;
 }
 .catalog-link span{
@@ -185,13 +185,13 @@ body.hidden {
 }
 .search-form-close {
     background: none;
-    margin: 0 0 0 14px;
+    margin: 0 0 0 7px;
 }
 
 /* Основной контент */
 
 main{
-    margin: 60px 0;
+    margin: 84px 0;
 }
 
 /* Подвал */
@@ -230,15 +230,117 @@ main{
     margin: 0 12px 0 0;
 }
 .main-info-link {
-    color: #181818;
+    color: #000000;
 }
 
+.banner {
+    height: 250px;
+    background: url('../img/bunner.png') 50%/cover no-repeat;
+    border-radius: 24px;
+}
+.banner-body {
+    height: 250px;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 15px;
+}
+.bunner-form {
+    width: 220px;
+    height: 220px;
+    border-radius: 20px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: rgba(32, 32, 32, 0.7);
+}
+.bunner-title{
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.banner-input {
+    height: 36px;
+    width: 100%;
+    border-radius: 12px;
+    padding: 0 12px;
+    background-color: #FFFFFF;
+}
+.banner-button{
+    height: 36px;
+    width: 100%;
+    border-radius: 12px;
+    padding: 0 12px;
+    background-color: #FFFFFF;
+    text-transform: uppercase;
+}
+.room-body {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
 
+.room-img {
+    width: 50%;
+    border: 1px solid #E6E5E5;
+}
+.room-img-img {
+    width: 100%;
+}
+.room-form {
+    width: 50%;
+    display: flex;
+    border: 1px solid #E6E5E5;
+    align-items: center;
+    justify-content: center;
+}
 
+.room-form form{
+    width: 300px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.room-form form p{
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 600;
+}
+.room-form form h1{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+}
+.room-input {
+    margin: 48px 0 72px 0;
+    display: flex;
+}
+.room-input input {
+    height: 36px;
+    padding: 12px;
+    border-bottom: 1px solid #C4C4C4;
+    width: 100%;
+}
+.room-input button {
+    height: 36px;
+    width: 36px;
+    background: none;
+    border-bottom: 1px solid #C4C4C4;
+}
 
-
-
-
+.catalog{
+    height: 100px;
+    background-color: aquamarine;
+    margin: 24px 0;
+}
 
 
 
@@ -255,6 +357,7 @@ main{
         display: flex;
         flex-direction: column;
         transition: 0.3s;
+        background-color: #FFFFFF;
     }
     .main-nav.active{
         left: 0;
@@ -292,7 +395,7 @@ main{
         border-bottom: 1px solid #E6E5E5;
     }
     .main-nav-link {
-        color: #181818;
+        color: #000000;
     }
 
     .main-nav-catalog {
@@ -322,7 +425,7 @@ main{
     .catalog-link {
         height: 100%;
         width: 100%;
-        color: #181818;
+        color: #000000;
         transition: 1s;
         display: flex;
         align-items: center;
@@ -332,7 +435,7 @@ main{
        display: block;
     }
     .catalog-link:hover {
-        color: #181818;
+        color: #000000;
         transition: 1s;
     }
     .main-shop-search {
@@ -348,6 +451,16 @@ main{
     .main-shop-link span {
         font-size: 20px;
         display: block;
+    }
+    .room-body {
+        flex-direction: column;
+    }
+    .room-img {
+        width: 100%;
+    }
+    .room-form {
+        width: 100%;
+        padding: 84px 0;
     }
 }
 
@@ -389,6 +502,18 @@ main{
         margin: 0;
     }
     .main-info-link {
-        color: #181818;
-    }    
+        color: #000000;
+    }
+    .room-form form p{
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .room-form {
+        width: 100%;
+        padding: 63px 0;
+    }
+    .room-form form h1{
+        font-size: 10px;
+    }
 }

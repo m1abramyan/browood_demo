@@ -1,6 +1,7 @@
 const BURGER = document.querySelector('.header-burger')
 const MAIN_NAV = document.querySelector('.main-nav')
 
+
 const CATALOG_BTN = document.querySelector('.catalog-btn')
 const CATALOG_MENU = document.querySelector('.main-nav-catalog')
 
