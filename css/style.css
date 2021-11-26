@@ -334,11 +334,18 @@ main{
     width: 36px;
     background: none;
     border-bottom: 1px solid #C4C4C4;
+    color: #000000;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+
 }
 
 .catalog{
     height: 100px;
-    background-color: aquamarine;
     margin: 24px 0;
 }
 
