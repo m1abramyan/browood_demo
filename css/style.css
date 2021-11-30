@@ -341,7 +341,7 @@ main{
 }
 .cart-price span{
     font-size: 16px;
-    color: #0077FF;
+    color: #20252B;
     font-weight: 600;
     display: inline-block;
     margin: 6px 0 0 0;
@@ -352,7 +352,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #0077FF;
+    background-color: #20252B;
     text-align: center;
     color: #FFFFFF;
     padding-top: 5px;
